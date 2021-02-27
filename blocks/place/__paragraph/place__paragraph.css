@@ -1,0 +1,30 @@
+.place__paragraph {
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0 auto 25px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+
+  .place__paragraph {
+    margin: 0 16px 25px;
+  }
+
+  .place__paragraph:last-of-type {
+    margin: 0 16px;
+  }
+
+}
