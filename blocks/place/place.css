@@ -4,7 +4,6 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap: 48px 40px;
-  max-width: 100%;
   margin-bottom: 80px;
 }
 
